@@ -53,11 +53,12 @@ const SignInForm = () => {
 
     if (isLoggedIn) {
       form.reset();
-      navigate("/home");
+
+      navigate("/");
     } else {
-      return toast({
-        title: "Sign up failed. Please try again.",
-      });
+      toast({ title: "Login failed. Please try again.", });
+
+      return;
     }
   }
 
