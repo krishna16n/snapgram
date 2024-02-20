@@ -26,7 +26,11 @@ const Topbar = () => {
 					/>
 				</Link>
 				<div className='flex gap-4'>
-					<Button variant='ghost' className='shad-button_ghost' onClick={() => signOut()}>
+					<Button
+						variant='ghost'
+						className='shad-button_ghost'
+						onClick={() => signOut()}
+					>
 						<img src='/assets/icons/logout.svg' />
 					</Button>
 					<Link to={`profile/${user.id}`} className='flex-center gap-3'>
