@@ -1,5 +1,5 @@
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
-import { Button } from '../button'
+import { Button } from '../ui/button'
 import { useSignOutAccount } from '@/lib/react-query/queryAndMutations'
 import { useEffect } from 'react';
 import { useUserContext } from '@/context/AuthContext';
